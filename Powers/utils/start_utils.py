@@ -1,4 +1,4 @@
-from html import escape
+ from html import escape
 from secrets import choice
 from traceback import format_exc
 
@@ -45,7 +45,7 @@ async def gen_start_kb(q: Message or CallbackQuery):
                 ),
                 (
                     "Support 👥",
-                    f"https://t.me/{SUPPORT_GROUP}",
+                    f"https://t.me/AnimeKunChannel",
                     "url",
                 ),
             ],
@@ -61,7 +61,7 @@ async def gen_start_kb(q: Message or CallbackQuery):
             [
                 (
                     "🗃️ Source Code",
-                    "https://github.com/Gojo-Bots/Gojo_Satoru",
+                    "https://github.com/SiamRin33",
                     "url",
                 ),
                 (
@@ -72,13 +72,13 @@ async def gen_start_kb(q: Message or CallbackQuery):
             ],
             [
                 (
-                    "Essential",
-                    "https://t.me/+PcVYvdzNt4E1YjM1",
+                    "Main Channel",
+                    "https://t.me/Anime_Kun_Channel",
                     "url",
                 ),
                 (
                     "Powered by",
-                    f"https://{Config.SUPPORT_CHANNEL}.t.me",
+                    f"https://t.me/Chowdhury_Siam",
                     "url",
                 ),
             ],

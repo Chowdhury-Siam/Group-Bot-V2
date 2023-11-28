@@ -554,7 +554,7 @@ Customize your group's welcome / goodbye messages that can be personalised in mu
 
 **Note:**
 × Currently it supports only text!
-× Gojo must be an admin to greet and goodbye users.
+× Rin Tohsaka must be an admin to greet and goodbye users.
 
 **Admin Commands:**
 • /setwelcome <reply> : Sets a custom welcome message.

@@ -108,7 +108,7 @@ For example:
 %%%
 how are you</code>
 This will randomly choose between sending the first message, "hello", or the second message, "how are you".
-Use this to make Gojo feel a bit more customised! (only works in filters/notes)
+Use this to make Rin Tohsaka feel a bit more customised! (only works in filters/notes)
 
 Example welcome message::
 - Every time a new user joins, they'll be presented with one of the three messages shown here.
@@ -152,4 +152,4 @@ __buttons__ = [
 __HELP__ = """
 **Formatting**
 
-Gojo supports a large number of formatting options to make your messages more expressive. Take a look by clicking the buttons below!"""
+Rin Tohsaka supports a large number of formatting options to make your messages more expressive. Take a look by clicking the buttons below!"""

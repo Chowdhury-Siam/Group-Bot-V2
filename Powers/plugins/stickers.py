@@ -257,7 +257,7 @@ async def memify_it(c: Gojo, m: Message):
     kb = IKM(
         [
             [
-                IKB("Join for memes",url="https://t.me/memesofdank")
+                IKB("Join Our Main Channel",url="https://t.me/Anime_Kun_Channel")
             ]
         ]
     )
@@ -271,7 +271,7 @@ async def memify_it(c: Gojo, m: Message):
         fiil = "white"
     x = await m.reply_text("Memifying...")
     meme = m.text.split(None,1)[1].strip()
-    name = f"@memesofdank_{m.id}.png"
+    name = f"@Rin_Tohsaka_{m.id}.png"
     path = await rep_to.download(name)
     is_sticker = False
     if rep_to.sticker:

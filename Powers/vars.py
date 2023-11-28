@@ -14,7 +14,7 @@ class Config:
     BOT_TOKEN = config("BOT_TOKEN", default=None)
     API_ID = int(config("API_ID", default="123"))
     API_HASH = config("API_HASH", default=None)
-    OWNER_ID = int(config("OWNER_ID", default=1344569458))
+    OWNER_ID = int(config("OWNER_ID", default=5971676967))
     MESSAGE_DUMP = int(config("MESSAGE_DUMP"))
     DEV_USERS = [
         int(i)
@@ -41,7 +41,7 @@ class Config:
     AuDD_API = config("AuDD_API",default=None)
     RMBG_API = config("RMBG_API",default=None)
     DB_URI = config("DB_URI", default="")
-    DB_NAME = config("DB_NAME", default="gojo_satarou")
+    DB_NAME = config("DB_NAME", default="rin_tohsaka")
     BDB_URI = config("BDB_URI",default=None)
     NO_LOAD = config("NO_LOAD", default="").split()
     PREFIX_HANDLER = config("PREFIX_HANDLER", default="/").split()
@@ -63,7 +63,7 @@ class Development:
     BOT_TOKEN = "YOUR BOT_TOKEN"
     API_ID = 12345  # Your APP_ID from Telegram
     API_HASH = "YOUR API HASH"  # Your APP_HASH from Telegram
-    OWNER_ID = 1344569458  # Your telegram user id defult to mine
+    OWNER_ID = 5971676967  # Your telegram user id defult to mine
     MESSAGE_DUMP = -100845454887  # Your Private Group ID for logs
     DEV_USERS = []
     SUDO_USERS = []
@@ -74,9 +74,9 @@ class Development:
     GENIUS_API_TOKEN = ""
     RMBG_API = ""
     PREFIX_HANDLER = ["!", "/","$"]
-    SUPPORT_GROUP = "SUPPORT_GROUP"
-    SUPPORT_CHANNEL = "SUPPORT_CHANNEL"
+    SUPPORT_GROUP = "Anime_Kun_Channel"
+    SUPPORT_CHANNEL = "AnimeKunChannel"
     VERSION = "VERSION"
-    TIME_ZONE = 'Asia/Kolkata'
+    TIME_ZONE = 'Asia/Dhaka'
     BDB_URI = ""
     WORKERS = 8
